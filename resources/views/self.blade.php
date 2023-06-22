@@ -842,7 +842,7 @@
                                                                         <img decoding="async"
                                                                             src="{{asset('public/assets/images/laravel-hd-logo.png')}}" height="172.27" width="172.27"
                                                                             alt="Figma">
-                                                                        <h1 class="percent">86%</h1>
+                                                                        <h1 class="percent">46%</h1>
                                                                     </div>
                                                                     <p class="name">Laravel</p>
                                                                 </div>
@@ -854,7 +854,7 @@
                                                                         <img decoding="async"
                                                                             src="{{asset('public/assets/images/flutter-hd-logo.png')}}" height="172.27" width="172.27"
                                                                             alt="Figma">
-                                                                        <h1 class="percent">70%</h1>
+                                                                        <h1 class="percent">10%</h1>
                                                                     </div>
                                                                     <p class="name">Flutter</p>
                                                                 </div>
