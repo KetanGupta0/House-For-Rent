@@ -206,33 +206,34 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-            function timeCalc(time){
+
+            function timeCalc(time) {
                 let timestamp = new Date(time).getTime();
-                    let now = Date.now();
-                    let diff = now - timestamp;
+                let now = Date.now();
+                let diff = now - timestamp;
 
-                    let seconds = Math.floor(diff / 1000);
-                    let minutes = Math.floor(seconds / 60);
-                    let hours = Math.floor(minutes / 60);
-                    let days = Math.floor(hours / 24);
+                let seconds = Math.floor(diff / 1000);
+                let minutes = Math.floor(seconds / 60);
+                let hours = Math.floor(minutes / 60);
+                let days = Math.floor(hours / 24);
 
-                    if (days > 1) {
-                        return `${days} days ago`;
-                    } else if (days === 1) {
-                        return `1 day ago`;
-                    } else if (hours > 1) {
-                        return `${hours} hours ago`;
-                    } else if (hours === 1) {
-                        return `1 hour ago`;
-                    } else if (minutes > 1) {
-                        return `${minutes} minutes ago`;
-                    } else if (minutes === 1) {
-                        return `1 minute ago`;
-                    } else if (seconds > 5) {
-                        return `${seconds} seconds ago`;
-                    } else {
-                        return `just now`;
-                    }
+                if (days > 1) {
+                    return `${days} days ago`;
+                } else if (days === 1) {
+                    return `1 day ago`;
+                } else if (hours > 1) {
+                    return `${hours} hours ago`;
+                } else if (hours === 1) {
+                    return `1 hour ago`;
+                } else if (minutes > 1) {
+                    return `${minutes} minutes ago`;
+                } else if (minutes === 1) {
+                    return `1 minute ago`;
+                } else if (seconds > 5) {
+                    return `${seconds} seconds ago`;
+                } else {
+                    return `just now`;
+                }
             }
             $.ajax({
                 url: "{{ url('load-houses') }}",
