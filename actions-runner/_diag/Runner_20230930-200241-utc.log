@@ -1,0 +1,85 @@
+[2023-09-30 20:02:41Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-09-30 20:02:41Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:41Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:41Z INFO HostContext] Well known config file 'Credentials': 'D:\xampp\htdocs\house-rent\actions-runner\.credentials'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO HostContext] Well known config file 'Runner': 'D:\xampp\htdocs\house-rent\actions-runner\.runner'
+[2023-09-30 20:02:42Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-09-30 20:02:42Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22621.
+[2023-09-30 20:02:42Z INFO Listener] Version: 2.309.0
+[2023-09-30 20:02:42Z INFO Listener] Commit: bdfef345577cb66994787a4166e717744da6379f
+[2023-09-30 20:02:42Z INFO Listener] Culture: en-IN
+[2023-09-30 20:02:42Z INFO Listener] UI Culture: en-US
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO Listener] Validating directory permissions for: 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO CommandLineParser] Parse
+[2023-09-30 20:02:42Z INFO CommandLineParser] Parsing 5 args
+[2023-09-30 20:02:42Z INFO CommandLineParser] parsing argument
+[2023-09-30 20:02:42Z INFO CommandLineParser] HasArgs: False
+[2023-09-30 20:02:42Z INFO CommandLineParser] Adding Command: configure
+[2023-09-30 20:02:42Z INFO CommandLineParser] parsing argument
+[2023-09-30 20:02:42Z INFO CommandLineParser] HasArgs: True
+[2023-09-30 20:02:42Z INFO CommandLineParser] arg: url
+[2023-09-30 20:02:42Z INFO CommandLineParser] parsing argument
+[2023-09-30 20:02:42Z INFO CommandLineParser] HasArgs: True
+[2023-09-30 20:02:42Z INFO CommandLineParser] Adding option 'url': 'https://github.com/KetanGupta0/House-For-Rent'
+[2023-09-30 20:02:42Z INFO CommandLineParser] parsing argument
+[2023-09-30 20:02:42Z INFO CommandLineParser] HasArgs: True
+[2023-09-30 20:02:42Z INFO CommandLineParser] arg: token
+[2023-09-30 20:02:42Z INFO CommandLineParser] parsing argument
+[2023-09-30 20:02:42Z INFO CommandLineParser] HasArgs: True
+[2023-09-30 20:02:42Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-09-30 20:02:42Z INFO Listener] Arguments parsed
+[2023-09-30 20:02:42Z INFO Runner] ExecuteCommand
+[2023-09-30 20:02:42Z INFO ConfigurationStore] currentAssemblyLocation: D:\xampp\htdocs\house-rent\actions-runner\bin\Runner.Listener.dll
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] binPath: D:\xampp\htdocs\house-rent\actions-runner\bin
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] RootFolder: D:\xampp\htdocs\house-rent\actions-runner
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO HostContext] Well known config file 'Runner': 'D:\xampp\htdocs\house-rent\actions-runner\.runner'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] ConfigFilePath: D:\xampp\htdocs\house-rent\actions-runner\.runner
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO HostContext] Well known config file 'Credentials': 'D:\xampp\htdocs\house-rent\actions-runner\.credentials'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] CredFilePath: D:\xampp\htdocs\house-rent\actions-runner\.credentials
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\xampp\htdocs\house-rent\actions-runner\.credentials_migrated'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] MigratedCredFilePath: D:\xampp\htdocs\house-rent\actions-runner\.credentials_migrated
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Bin': 'D:\xampp\htdocs\house-rent\actions-runner\bin'
+[2023-09-30 20:02:42Z INFO HostContext] Well known directory 'Root': 'D:\xampp\htdocs\house-rent\actions-runner'
+[2023-09-30 20:02:42Z INFO HostContext] Well known config file 'Service': 'D:\xampp\htdocs\house-rent\actions-runner\.service'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] ServiceConfigFilePath: D:\xampp\htdocs\house-rent\actions-runner\.service
+[2023-09-30 20:02:42Z INFO CommandSettings] Flag 'help': 'False'
+[2023-09-30 20:02:42Z INFO CommandSettings] Flag 'version': 'False'
+[2023-09-30 20:02:42Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-09-30 20:02:42Z INFO CommandSettings] Flag 'check': 'False'
+[2023-09-30 20:02:42Z INFO CommandSettings] Command 'configure': 'True'
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: 
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE: |                       
+[2023-09-30 20:02:42Z INFO Terminal] WRITE: Self-hosted runner registration
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE:                         |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-09-30 20:02:42Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-09-30 20:02:42Z INFO ConfigurationManager] ConfigureAsync
+[2023-09-30 20:02:42Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2023-09-30 20:02:42Z INFO ConfigurationStore] IsConfigured()
+[2023-09-30 20:02:42Z INFO ConfigurationStore] IsConfigured: True
+[2023-09-30 20:02:42Z INFO ConfigurationManager] Is configured: True
+[2023-09-30 20:02:43Z ERR  Runner] System.InvalidOperationException: Cannot configure the runner because it is already configured. To reconfigure the runner, run 'config.cmd remove' or './config.sh remove' first.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2023-09-30 20:02:43Z ERR  Terminal] WRITE ERROR: Cannot configure the runner because it is already configured. To reconfigure the runner, run 'config.cmd remove' or './config.sh remove' first.
+[2023-09-30 20:02:43Z INFO Listener] Runner execution has finished with return code 1
