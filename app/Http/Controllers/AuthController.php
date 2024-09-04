@@ -487,10 +487,8 @@ class AuthController extends Controller
         $image = $request->file('image');
         $imageName = time() . '-' . $image->getClientOriginalName();
         $image->move(public_path('img/profile-pic'), $imageName);
-
         $user = User::find(Session::get('userid'));
         $user->user_picture = $imageName;
-
         $result = $user->update();
 
         if ($result) {

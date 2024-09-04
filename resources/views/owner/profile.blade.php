@@ -534,7 +534,7 @@
             $(document).on('click', '.update-picture', function() {
                 console.log('clicked update-picture');
                 let fileInput = $('#new-profile-pic')[0].files[0];
-                console.log(fileInput);
+                // console.log(fileInput);
                 if (!fileInput) {
                     Swal.fire({
                         icon: 'error',
